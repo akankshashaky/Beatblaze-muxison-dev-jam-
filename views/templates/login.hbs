@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Login Page</title>
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+      <link rel="stylesheet" href="../css/user.css">
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="title">
+            Login Form
+         </div>
+         <form>
+            <div class="field">
+               <input type="text" required class="login-email-input">
+               <label>Email Address</label>
+            </div>
+            <div class="field">
+               <input type="password" required class="login-password-input">
+               <label>Password</label>
+            </div>
+            <div class="content">
+               <div class="pass-link">
+                  <a href="/forgotpassword">Forgot password?</a>
+               </div>
+            </div>
+            <div class="field">
+               <input type="submit" value="Login" id="login-submit-btn">
+            </div>
+            <div class="signup-link">
+               Not a registered? <a href="/signup">Signup now</a>
+            </div>
+         </form>
+      </div>
+   </body>
+   <script type="module" src="../js/user.js"></script>
+</html>
